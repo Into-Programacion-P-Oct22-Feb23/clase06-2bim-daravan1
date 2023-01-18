@@ -18,15 +18,22 @@ public class Ejemplo02 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Ingrese el limite de los numeros");
+        System.out.println("Ingrese el limite de los numeros que sea mayor a 0");
         int limite = entrada.nextInt();
-        int valorA = obtenerNumero(limite); // 3
+        if (limite > 0) {
+          int valorA = obtenerNumero(limite); // 3
         int valorB = obtenerNumero(limite); // 2
         int suma = obtnerSuma(valorA, valorB);
         System.out.printf("La suma de %d + %d es igual a: %d\n", 
                 valorA,
                 valorB,
-                suma);
+                suma);  
+        }else{
+            System.out.println("Error");
+        }
+      
+        
+        
         
     }
     
