@@ -23,11 +23,9 @@ public class Principal {
         int multiplicacion = OperadorTres.Obtenermultiplicacion(valorA, valorB);
         System.out.printf("La suma de %d + %d es igual a: %d\nLa multiplicacion "
                 + "de %d * %d es igual a: %d\n",
-                valorA,
-                valorB,
+                valorA, valorB,
                 suma,
-                valorA,
-                valorB,
+                valorA, valorB,
                 multiplicacion);
     }
 }
