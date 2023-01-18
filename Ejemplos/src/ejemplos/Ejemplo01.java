@@ -6,7 +6,7 @@
 package ejemplos;
 
 import java.security.SecureRandom;
-// import java.security.*;
+//import java.security.*;
 
 /**
  *
@@ -23,6 +23,7 @@ public class Ejemplo01 {
                 valorA,
                 valorB,
                 suma);
+        
     }
     
     public static int obtenerNumero() {
